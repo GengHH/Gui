@@ -1,7 +1,14 @@
 {
   "name": "ghh-ui",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.2",
+  "keywords": [
+    "vue",
+    "Photo Wall"
+  ],
+  "author": "GengHH <18818060415@163.com>",
+  "repository": "git://github.com/GengHH/Gui.git",
+  "homepage": "https://github.com/GengHH/Gui",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -24,6 +31,12 @@
     "sass-loader": "^8.0.0",
     "vue-template-compiler": "^2.6.11"
   },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/GengHH/Gui/ghh-ui/LICENSE"
+    }
+  ],
   "eslintConfig": {
     "root": true,
     "env": {
