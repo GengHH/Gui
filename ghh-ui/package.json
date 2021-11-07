@@ -39,7 +39,7 @@
   "licenses": [
     {
       "type": "MIT",
-      "url": "http://github.com/GengHH/Gui/ghh-ui/LICENSE"
+      "url": "http://github.com/GengHH/Gui/LICENSE"
     }
   ],
   "eslintConfig": {
