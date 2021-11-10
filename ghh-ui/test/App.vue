@@ -2,13 +2,14 @@
  * @Author: GengHH
  * @Date: 2021-11-04 16:38:26
  * @LastEditors: GengHH
- * @LastEditTime: 2021-11-10 12:23:38
+ * @LastEditTime: 2021-11-10 15:26:57
  * @Description: file content
  * @FilePath: \Gui\ghh-ui\test\App.vue
 -->
 <template>
-  <div>
-    <ghh-button :type="type"></ghh-button>
+  <div id="box">
+    <div ref="btn">1234</div>
+    <ghh-button ref="btn2" :type="type"></ghh-button>
     <ghh-img-box :paths="paths" isPreview></ghh-img-box>
 
     <p>Using stand-alone:</p>
@@ -53,6 +54,7 @@
 
 <script>
 import MyParallaxy from '../src/components/Parallaxy.vue';
+import { gsap } from 'gsap';
 export default {
   name: 'app',
   components: { MyParallaxy },
@@ -76,6 +78,23 @@ export default {
         'https://picsum.photos/250/250/?image=59',
       ],
     };
+  },
+  mounted() {
+    const { btn, btn2 } = this.$refs;
+    console.log(
+      '%c 🍨 btn2: ',
+      'font-size:20px;background-color: #F5CE50;color:#fff;',
+      btn2
+    );
+    console.log(
+      '%c 🦑 btn: ',
+      'font-size:20px;background-color: #4b4b4b;color:#fff;',
+      btn
+    );
+    // const timeline = new TimelineLite();
+
+    gsap.to(btn, { x: 100, duration: 1 });
+    gsap.to(btn2.$el, { rotation: 27, duration: 1 });
   },
 };
 </script>
