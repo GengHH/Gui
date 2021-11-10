@@ -2,7 +2,7 @@
  * @Author: GengHH
  * @Date: 2021-11-04 16:38:26
  * @LastEditors: GengHH
- * @LastEditTime: 2021-11-05 17:02:02
+ * @LastEditTime: 2021-11-10 12:23:38
  * @Description: file content
  * @FilePath: \Gui\ghh-ui\test\App.vue
 -->
@@ -47,12 +47,15 @@
         <b-badge>7</b-badge>
       </b-list-group-item>
     </b-list-group>
+    <MyParallaxy></MyParallaxy>
   </div>
 </template>
 
 <script>
+import MyParallaxy from '../src/components/Parallaxy.vue';
 export default {
   name: 'app',
+  components: { MyParallaxy },
   data() {
     return {
       type: 'primary',
