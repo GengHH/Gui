@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-11-04 20:40:56
- * @LastEditTime: 2021-11-06 15:05:16
+ * @LastEditTime: 2021-11-07 20:57:26
  * @LastEditors: Please set LastEditors
  * @Description: 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
  * @FilePath: \Gui\ghh-ui\README.md
@@ -21,7 +21,7 @@ Vue.use(Gui);
 
 ##### 注意：本组件依赖于 bootstrap-vue 组件，详情请查看[Bootstrap-vue Document](https://bootstrap-vue.org/).
 
-## 开发步骤：
+### 开发步骤：
 
 ## Project setup
 
