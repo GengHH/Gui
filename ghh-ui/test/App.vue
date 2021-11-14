@@ -1,8 +1,8 @@
 <!--
  * @Author: GengHH
  * @Date: 2021-11-04 16:38:26
- * @LastEditors: GengHH
- * @LastEditTime: 2021-11-10 15:26:57
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2021-11-14 22:08:24
  * @Description: file content
  * @FilePath: \Gui\ghh-ui\test\App.vue
 -->
@@ -48,6 +48,7 @@
         <b-badge>7</b-badge>
       </b-list-group-item>
     </b-list-group>
+    <!-- 视查插件测试 -->
     <MyParallaxy></MyParallaxy>
   </div>
 </template>
